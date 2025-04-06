@@ -20,7 +20,7 @@ inicio
             
          Senao
          
-            Escreval("O número está fora do intervalo de 2 a 10") Entao
+            Escreval("O número está fora do intervalo de 2 a 10")
             
          FimSe
 fimalgoritmo
