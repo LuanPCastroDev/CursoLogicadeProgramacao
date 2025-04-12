@@ -5,7 +5,7 @@ algoritmo "Exercício Enquanto Faça Fatorial"
 // Seção de Declarações 
 var
 
-   numero, contador, soma, somafatorial, total : inteiro
+   numero, fatorial, somafatorial, i : inteiro
 inicio
 
 
@@ -13,12 +13,12 @@ inicio
       Escreval("Informe um número maior que 0:")
       leia(numero)
       
-      contador <- numero
-      Enquanto ( contador <> 0 ) Faca
-               soma <- contador * (contador - 1)
-               somafatorial <- somafatorial + soma
-               contador <- contador - 1
+      i <- 2
+      fatorial <- 1
+      Enquanto ( i <= numero ) Faca
+               fatorial <- fatorial * i
+               i <- i + 1
       FimEnquanto
       
-      Escreval("O fatorial de ", numero, " é igual a: ", somafatorial)
+      Escreval("O fatorial de ", numero, " é igual a: ", fatorial)
 fimalgoritmo
