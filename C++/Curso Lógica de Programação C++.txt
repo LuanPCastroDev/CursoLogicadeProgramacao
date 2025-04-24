@@ -1,0 +1,1 @@
+Nesta pasta irei criar o repositório do curso de Lógica de programação e algoritmos utilizando a linguagem C++.
