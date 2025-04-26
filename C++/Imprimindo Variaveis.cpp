@@ -21,13 +21,13 @@ int main(){
 	texto = "C++ é legal";
 	
 	bool verdadeirofalso;
-	vardadeirofalso = false;
+	verdadeirofalso = false;
 	
-	cout << "Testando a impressão na tela de valores armazenados em varíaveis" << "\n"; 
+	cout << "Testando a impressão na tela de valores armazenados em variáveis" << "\n"; 
 	cout <<	numerointeiro  << "\n";
 	cout << numerocomcasadecimal << "\n";
 	cout << letra << "\n";
 	cout << texto << "\n";
-	cout << vardadeirofalso << "\n";
+	cout << verdadeirofalso << "\n";
 	return 0;
 }
