@@ -4,8 +4,7 @@
 using namespace std;
 
 
-double nota1VG = 7;
-double nota2VG = 6.9;  
+double nota1VG, nota2VG;  
 int main(){
  	
 	setlocale(LC_ALL, "Portuguese");
@@ -14,7 +13,13 @@ int main(){
 	string nome;
 	
 	cout << "Informe o nome do aluno: \n";
-	cin >> nome;
+	getline(cin, nome);
+	
+	cout << "Digite o valor da 1º nota: \n";
+	cin >> nota1VG;
+	
+	cout << "Digite o valor da 2º nota: \n";
+	cin >> nota2VG;
 	
 	cout << "Digite o valor da 3º nota: \n";
 	cin >> nota3VL;
