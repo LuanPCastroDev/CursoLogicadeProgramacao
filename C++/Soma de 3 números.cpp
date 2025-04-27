@@ -20,7 +20,7 @@ int main(){
 	
 	soma = numero1 + numero2 + numero3;
 	
-	cout << "A soma dos números informados é: " << soma;
+	cout << "A soma dos números informados é: " << soma, "\n";
 	
 	
 	system("Pause");
