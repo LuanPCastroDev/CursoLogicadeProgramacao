@@ -22,17 +22,17 @@ int main(){
 	cin >> numero2;
 	
 	if(numero1 > numero2){
+		
 		cout << "O numero " << numero1 << " é maior que " << numero2 << "\n";
-	} if(numero1 == numero2) {
+	
+	}else if(numero1 == numero2) {
+		
 		cout << "Os dois números são iguais.";
 
 	} else {
+		
 		cout << "O número " << numero2 << " é maior que " << numero1 << "\n";
 	}
-	
-	
-	
-	
 	
 	system("Pause");
 
